@@ -11,16 +11,25 @@ categories: Quaternion
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Distances_between_double_cube_corners.svg" alt="three dimensions" style="width: 48%;">
 </div>
 
-Look at the above two pictures. Stare at the left first, and image that you are living in a two dimension space and your home is at the 0 point. One day you want to walk to other palces to visit your 2-fold friends but there is rules in this world which you can only walk on four directions that is left, right, up and down and each step you walk is just one unit in this world. The funny and interesting thing in this world is that you and your friend cannot have abritray locations. This leads us to sum of two square theorem.
 
-Now suppose you upgraded your dimension to three. That is our world in certain sense. You also have rules which can only walk $8=2^3$ directions and each step is one unit. Is there any restriction in this word, do you think you can have friends located all over the space? Let's exploer more about this kind of question.
+Look at the above two pictures. Stare at the left first, and imagine that you are living in a two-dimensional space, and your home is at the (0, 0) point. One day you want to walk to other places to visit your 2-fold friends, but there are rules in this world: you can only walk in four directions—left, right, up, and down—and each step you take is just one unit in this world. The interesting thing is that you and your friends cannot have arbitrary locations, leading us to the Sum of Two Squares Theorem.
+
+Now suppose you've upgraded your dimension to three. In our world, you also have rules—you can only walk in 8 directions (since $8 = 2^3$), and each step is one unit. Are there any restrictions in this world? Can you have friends located all over the space? Let's explore more about this kind of question.
 
 # Sum of Two Squares Theorem
+
 An integer greater than one can be written as the sum of two squares if and only if its prime decomposition contains no factor $p^k$, where prime $p \equiv 3 \pmod{4}$ and $k$ is odd.
 
-For example $$2450 = 2 \dot 52 \dot72$$. Of the primes occurring in this decomposition, 2, 5, and 7, only 7 is congruent to 3 modulo 4. Its exponent in the decomposition, 2, is even. Therefore, the theorem states that it is expressible as the sum of two squares. Indeed, $$2450 = 7^2 + 49^2.$$ The prime decomposition of the number 3430 is $2 · 5 · 73$. This time, the exponent of 7 in the decomposition is 3, an odd number. So 3430 cannot be written as the sum of two squares.
+For example, $2450 = 2 \cdot 5^2 \cdot 7^2$. Of the primes occurring in this decomposition, 2, 5, and 7, only 7 is congruent to 3 modulo 4. Its exponent in the decomposition, 2, is even. Therefore, the theorem states that it is expressible as the sum of two squares. Indeed, $2450 = 7^2 + 49^2$.
+
+The prime decomposition of the number 3430 is $2 \cdot 5 \cdot 73$. This time, the exponent of 7 in the decomposition is 3, an odd number. So 3430 cannot be written as the sum of two squares.
+
 ## Proof Sketch
-To prove this theorem we just need to consider the prime case. Actually a lot of number theory probelms which one wants to solve depend on the prime case. For our case, if your integer is not prime, then you just need to decompose it. Let's go to the complex world to see how it works. If $n=pq, p=(a^2+b^2), q=(c^2+d^2)$, then $n=(ac-bd)^2+(ad+bc)^2$. This is just because The norm in complex number is muliplicative. Therefore we only need to focus on primes. What kind of prime can be written as sum of two suqares? If an odd prime factor of your integer can be written as sum of two squares i.e., $p=a^2+b^2,$ then $p=(a+bi)(a-bi)$, where $i^2=-1$. In this case the space $Z[i]/(p)$ is not an integral domain, hence $(p)$ is not prime this can only happens when $p \equiv 1 \pmod{4}$. 
+
+To prove this theorem, we just need to consider the prime case. Many number theory problems that one wants to solve depend on the prime case. If your integer is not prime, then you just need to decompose it. Let's go to the complex world to see how it works. If $n = pq$, where $p = (a^2 + b^2)$ and $q = (c^2 + d^2)$, then $n = (ac - bd)^2 + (ad + bc)^2$. This is because the norm in complex numbers is multiplicative. Therefore, we only need to focus on primes.
+
+What kind of prime can be written as the sum of two squares? If an odd prime factor of your integer can be written as the sum of two squares, i.e., $p = a^2 + b^2$, then $p = (a + bi)(a - bi)$, where $i^2 = -1$. In this case, the space $Z[i]/(p)$ is not an integral domain, hence $(p)$ is not prime. This can only happen when $p \equiv 1 \pmod{4}$.
+
 
 
 ## Lagrange's Four-square Theorem
