@@ -17,22 +17,10 @@ Now suppose you upgraded your dimension to three. That is our world in certain s
 
 # Sum of Two Squares Theorem
 An integer greater than one can be written as the sum of two squares if and only if its prime decomposition contains no factor $p^k$, where prime $p \equiv 3 \pmod{4}$ and $k$ is odd.
-For example $2450 = 2 · 52 · 72$. Of the primes occurring in this decomposition, 2, 5, and 7, only 7 is congruent to 3 modulo 4. Its exponent in the decomposition, 2, is even. Therefore, the theorem states that it is expressible as the sum of two squares. Indeed, $2450 = 7^2 + 49^2.$
 
-The prime decomposition of the number 3430 is $2 · 5 · 73$. This time, the exponent of 7 in the decomposition is 3, an odd number. So 3430 cannot be written as the sum of two squares.
-To prove this theorem we just need to extent our integer to Guassian integer, thoese number which can be represeted by sum of two suqares is just a norm of an Gussian integer. This is because if $n=a^2+b^2,$ then $n=(a+bi)(a-bi), where $i^2=-1$.
-Fermat's theorem on the sum of two squares states that a prime number \( p \) can be expressed as the sum of two integer squares \( a^2 + b^2 \) if and only if \( p \equiv 1 \pmod{4} \) or \( p = 2 \).
-
-In mathematical terms, for a prime number \( p \), there exist integers \( a \) and \( b \) such that \( p = a^2 + b^2 \) if and only if \( p \equiv 1 \pmod{4} \) or \( p = 2 \).
-
+For example $2450 = 2 · 52 · 72$. Of the primes occurring in this decomposition, 2, 5, and 7, only 7 is congruent to 3 modulo 4. Its exponent in the decomposition, 2, is even. Therefore, the theorem states that it is expressible as the sum of two squares. Indeed, $2450 = 7^2 + 49^2.$ The prime decomposition of the number 3430 is $2 · 5 · 73$. This time, the exponent of 7 in the decomposition is 3, an odd number. So 3430 cannot be written as the sum of two squares.
 ## Proof Sketch
-
-The proof of this theorem involves techniques from number theory and modular arithmetic. One way to prove it is by considering the Gaussian integers, which are complex numbers with integer real and imaginary parts. The key idea is to use the unique factorization property of Gaussian integers to show the existence or non-existence of solutions.
-
-The full proof is more involved and may require a background in number theory and algebra.
-
-## Significance
-
+To prove this theorem we just need to consider the prime case. Actually a lot of number theory probelms which one wants to solve depend on the prime case. For our case, if your integer is not prime, then you just need to decompose it. Let's go to the complex world to see how it works. If $n=pq, p=(a^2+b^2), q=(c^2+d^2)$, then $n=(ac-bd)^2+(ad+bc)^2$. This is just because The norm in complex number is muliplicative. Therefore we only need to focus on primes. What kind of prime can be written as sum of two suqares? If an odd prime factor of your integer can be written as sum of two squares i.e., $p=a^2+b^2,$ then $p=(a+bi)(a-bi)$, where $i^2=-1$. In this case the space $Z[i]/(p)$ is not an integral domain, hence $(p)$ is not prime this can only happens when $p \equiv 1 \pmod{4}$. 
 
 
 ## Lagrange's Four-square Theorem
