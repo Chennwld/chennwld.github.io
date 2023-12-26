@@ -8,13 +8,11 @@ categories: Quaternion
 ![Swiss Alps](https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg)
 
 
-## MathJax
+## Lagrange's Four-square Theorem
 
-You can enable MathJax by setting `mathjax: true` on a page or globally in the `_config.yml`. Some examples:
-
-[Lagrange's four-square theorem](https://www.wikiwand.com/en/Lagrange's_four-square_theorem) relates the  complex exponential function to the trigonometric functions.
-
-$$ e^{i\theta}=\cos(\theta)+i\sin(\theta) $$
+[Lagrange's four-square theorem](https://www.wikiwand.com/en/Lagrange's_four-square_theorem) states as fllowing:
+Every natural number can be written as sum of four non-negaitve integer squares.
+\[ n = a^2 + b^2 + c^2 + d^2 \]
 
 The [Euler-Lagrange](https://en.wikipedia.org/wiki/Lagrangian_mechanics) differential equation is the fundamental equation of calculus of variations.
 
