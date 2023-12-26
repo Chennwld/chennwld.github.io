@@ -7,6 +7,7 @@ categories: Quaternion
 ![two dimensions](https://upload.wikimedia.org/wikipedia/commons/0/05/Sum_of_two_squares_theorem.svg)
 ![three dimensions](https://upload.wikimedia.org/wikipedia/commons/1/1d/Distances_between_double_cube_corners.svg)
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Sum_of_two_squares_theorem.svg" alt="two dimensions" style="width:100px;height:100px;">
 
 ## Lagrange's Four-square Theorem
 
