@@ -13,7 +13,7 @@ categories: Quaternion
 
 Look at the above two pictures. Stare at the left first, and image that you are living in a two dimension space and your home is at the 0 point. One day you want to walk to other palces to visit your 2-fold friends but there is rules in this world which you can only walk on four directions that is left, right, up and down and each step you walk is just one unit in this world. The funny and interesting thing in this world is that you and your friend cannot have abritray locations. This leads us to sum of two square theorem.
 
-Now suppose you upgraded your dimension to three. That is our world in certain sense. You also have rules which can only walk $8=2^3$ directions and each step is one unit. Is there any restriction in this word, do you think you can have friends located all over the integer points(lattice points)? Let's exploer more about this kind of question.
+Now suppose you upgraded your dimension to three. That is our world in certain sense. You also have rules which can only walk $8=2^3$ directions and each step is one unit. Is there any restriction in this word, do you think you can have friends located all over the space? Let's exploer more about this kind of question.
 
 # Sum of Two Squares Theorem
 An integer greater than one can be written as the sum of two squares if and only if its prime decomposition contains no factor $p^k$, where prime $p \equiv 3 \pmod{4}$ and $k$ is odd.
