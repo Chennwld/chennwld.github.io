@@ -1,8 +1,8 @@
 ---
-title:  "Advanced examples"
+title:  "New way to understand four-square theorem"
 mathjax: true
 layout: post
-categories: media
+categories: Quaternion
 ---
 
 ![Swiss Alps](https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg)
@@ -12,7 +12,7 @@ categories: media
 
 You can enable MathJax by setting `mathjax: true` on a page or globally in the `_config.yml`. Some examples:
 
-[Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula) relates the  complex exponential function to the trigonometric functions.
+[Lagrange's four-square theorem](https://www.wikiwand.com/en/Lagrange's_four-square_theorem) relates the  complex exponential function to the trigonometric functions.
 
 $$ e^{i\theta}=\cos(\theta)+i\sin(\theta) $$
 
