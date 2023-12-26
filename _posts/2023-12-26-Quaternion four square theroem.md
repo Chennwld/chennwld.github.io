@@ -5,7 +5,7 @@ layout: post
 categories: Quaternion
 ---
 
-![Swiss Alps](https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg)
+![three dimensions](https://upload.wikimedia.org/wikipedia/commons/1/1d/Distances_between_double_cube_corners.svg)
 
 
 ## Lagrange's Four-square Theorem
